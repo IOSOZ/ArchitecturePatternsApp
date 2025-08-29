@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6CB810282E5C747A00E83A90 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB810272E5C747A00E83A90 /* SnapKit */; };
+		6CE35B862E6228A6003BA4F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6CE35B852E6228A6003BA4F5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CB8100E2E5C730400E83A90 /* ArchitecturePatternsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitecturePatternsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE35B852E6228A6003BA4F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +52,7 @@
 		6CB810052E5C730400E83A90 = {
 			isa = PBXGroup;
 			children = (
+				6CE35B852E6228A6003BA4F5 /* .gitignore */,
 				6CB810102E5C730400E83A90 /* ArchitecturePatternsApp */,
 				6CB8100F2E5C730400E83A90 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE35B862E6228A6003BA4F5 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

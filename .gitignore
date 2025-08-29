@@ -1,0 +1,47 @@
+# Xcode
+build/
+*.pbxproj
+*.xcodeproj/*
+!.xcodeproj/project.pbxproj
+*.xcworkspace/*
+!.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/xcshareddata/
+*.xcuserdata/
+DerivedData/
+
+# Swift Package Manager 
+Packages/
+*.xcodeproj/xcshareddata/swiftpm/
+
+# Локальные настройки
+*.mode1v3
+*.perspectivev3
+*.pbxuser
+
+# Скомпилированные файлы
+*.o
+*.d
+
+# Логи и отладка
+*.log
+
+# Конфиденциальные данные
+*.p12
+*.key
+*.pem
+*.cer
+*.mobileprovision
+
+# macOS/iOS кэш
+*.xccheckout
+
+# Временные файлы
+*.swp
+
+# Игнорировать все, кроме важных файлов в xcshareddata
+*.xcshareddata/*
+!.xcshareddata/IDEWorkspaceChecks.plist
+
+# Исключения 
+
+!Info.plist
